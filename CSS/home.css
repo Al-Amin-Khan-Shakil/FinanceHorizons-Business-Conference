@@ -4,4 +4,92 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
 }
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/* Hero Section Starts */
+
+#hero {
+  width: 100vw;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pre-header {
+  display: none;
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 73px;
+  background: #FFF;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.navbar {
+  display: none;
+}
+
+.hamburger-container {
+  width: 31px;
+  height: 27px;
+  margin-left: 23px;
+  transition: 0.1s;
+}
+
+#hamburger-link {
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger {
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-container:hover {
+  transform: scale(1.05);
+}
+
+.logo-holder {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logo-container {
+  width: 130px;
+  height: 51px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.logo-link {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+/* Hero Section Ends */
