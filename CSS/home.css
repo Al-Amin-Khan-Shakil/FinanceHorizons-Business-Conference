@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   font-style: normal;
-  overflow-x: hidden;
 }
 
 body {
@@ -41,7 +42,7 @@ body {
   position: relative;
 }
 
-.navbar {
+#navbar {
   display: none;
 }
 
@@ -90,6 +91,100 @@ body {
 .logo {
   width: 100%;
   height: 100%;
+}
+
+#banner-wrapper {
+  width: 100vw;
+}
+
+.banner {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background: url('../images/pexels-following-nyc-9480305.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #f8f8f8 65%, #f8f8f800);
+}
+
+.banner-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 346px;
+  margin: 109px 0 71px;
+  z-index: 2;
+}
+
+.banner-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  background: url('../images/orange-and-yellow.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
+}
+
+.banner-title span:first-child {
+  color: #f34910;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.banner-description-container {
+  background: #f8f8f8;
+  padding: 17px 14px;
+  border: 4px solid #fff;
+  margin-bottom: 30px;
+}
+
+.banner-description {
+  color: #515151;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -0.12px;
+}
+
+.date-container {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  color: #595959;
+  font-family: 'Gothic A1', sans-serif;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -1.6px;
+}
+
+.address {
+  color: #868686;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.26px;
 }
 
 /* Hero Section Ends */
