@@ -652,7 +652,7 @@ body {
   /* Program Section Starts */
 
   #program {
-    width: 70.5;
+    width: 70.5vw;
     row-gap: 70px;
     margin: 75px 0;
     flex-shrink: 1;
@@ -961,7 +961,6 @@ body {
   }
 
   /* Footer Section Ends */
-
 }
 
 /* Desktop Style Ends */
