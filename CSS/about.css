@@ -766,6 +766,62 @@ body {
     letter-spacing: 0.34px;
   }
 
+  /* About Section Starts */
+
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 2px solid #d9d9d9;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 759px;
+    margin: 65px 0;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-title-container {
+    width: 572px;
+  }
+
+  .about-title {
+    font-size: 30px;
+    letter-spacing: -0.9px;
+  }
+
+  .about-description-container {
+    width: 100%;
+  }
+
+  .about-logo {
+    width: 542px;
+    height: 196px;
+  }
+
+  /* About Section Ends */
+
 }
 
 /* Desktop Style Ends */
