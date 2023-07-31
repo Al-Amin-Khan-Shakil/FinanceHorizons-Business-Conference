@@ -13,6 +13,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 /* Hero Section Starts */
@@ -645,7 +646,321 @@ body {
     font-weight: 700;
     letter-spacing: -0.552px;
   }
+
   /* Hero Section Starts */
+
+  /* Program Section Starts */
+
+  #program {
+    width: 70.4vw;
+    row-gap: 70px;
+    margin: 75px 0;
+  }
+
+  .section-title {
+    font-size: 30px;
+    letter-spacing: -0.3px;
+  }
+
+  .title-bottomline {
+    width: 51px;
+  }
+
+  .program-container {
+    flex-direction: row;
+    justify-content: around;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .program-card {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 13px;
+    width: 200px;
+    height: 231px;
+    padding: 6px 12px;
+  }
+
+  .program-icon {
+    width: 100%;
+  }
+
+  .program-icon-logo {
+    width: 64px;
+    height: 58px;
+  }
+
+  .program-title-holder {
+    justify-content: center;
+    width: 100%;
+    height: 27px;
+  }
+
+  .program-title {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: -0.24px;
+  }
+
+  .program-description-holder {
+    width: 100%;
+  }
+
+  .program-description {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.72px;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .program-link-holder {
+    display: flex;
+  }
+
+  .program-link {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    text-decoration-line: underline;
+  }
+
+  /* Program Section Ends */
+
+  /* Speaker Section Starts */
+
+  #feature-speaker {
+    width: 72.4vw;
+    row-gap: 50px;
+    margin: 75px 0;
+  }
+
+  #speaker-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .speaker-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 48.5%;
+    column-gap: 15px;
+  }
+
+  .speaker-card:nth-child(1n+3) {
+    display: flex;
+  }
+
+  .card-photo-container {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  }
+
+  .design-element {
+    width: 65px;
+    height: 65px;
+    margin: 0 50px 50px 0;
+  }
+
+  .speaker-photo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    margin: 15px 0 0 15px;
+  }
+
+  .card-content-container {
+    margin-top: 15px;
+  }
+
+  .name {
+    font-size: 24px;
+    letter-spacing: -0.48px;
+    margin-bottom: 9px;
+  }
+
+  .identy {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -1.35px;
+    margin-bottom: 9px;
+  }
+
+  .separation-line {
+    width: 25px;
+    margin-bottom: 18px;
+  }
+
+  .identy-description {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.7px;
+  }
+
+  .more-btn-holder {
+    display: none;
+  }
+
+  /* Speaker Section Ends */
+
+  /* Partner Section Starts */
+
+  #partner-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #414246;
+    width: 100vw;
+  }
+  
+  .partner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 83.34vw;
+    margin: 35px 0;
+  }
+  
+  .section-title-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  .partner-title {
+    color: #8F8F91;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    margin-bottom: 13px;
+  }
+  
+  .partner-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    column-gap: 40px;
+  }
+  
+  .partner-logo {
+    width: 20%;
+    margin: 0 0 25px;
+  }
+  
+  .brand-logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Partner Section Ends */
+
+  /* Footer Section Starts */
+
+  #footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 74px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    row-gap: 8%;
+  }
+  
+  .footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+  }
+  
+  .footer-logo-holder {
+    background: url('../images/cck-logo1\ 1.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    height: 98px;
+  }
+  
+  .rights-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 68%;
+  }
+
+  .rights-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.14px;
+    margin-bottom: 25px;
+  }
+  
+  .rights-description {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+  }
+
+  /* Footer Section Ends */
+
 }
 
 /* Desktop Style Ends */
