@@ -589,7 +589,7 @@ body {
     text-align: center;
   }
 
-  .menu-list:last-child .menu-link{
+  .menu-list:last-child .menu-link {
     color: #ec4327;
     text-align: center;
   }
@@ -652,9 +652,10 @@ body {
   /* Program Section Starts */
 
   #program {
-    width: 70.4vw;
+    width: 70.5;
     row-gap: 70px;
     margin: 75px 0;
+    flex-shrink: 1;
   }
 
   .section-title {
@@ -668,9 +669,9 @@ body {
 
   .program-container {
     flex-direction: row;
-    justify-content: around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 3px;
   }
 
   .program-card {
@@ -679,7 +680,7 @@ body {
     align-items: center;
     row-gap: 13px;
     width: 200px;
-    height: 231px;
+    height: 232px;
     padding: 6px 12px;
   }
 
@@ -831,7 +832,7 @@ body {
     background-color: #414246;
     width: 100vw;
   }
-  
+
   .partner-wrapper {
     display: flex;
     flex-direction: column;
@@ -839,7 +840,7 @@ body {
     align-items: center;
     width: 100%;
   }
-  
+
   #partner {
     display: flex;
     flex-direction: column;
@@ -848,7 +849,7 @@ body {
     width: 83.34vw;
     margin: 35px 0;
   }
-  
+
   .section-title-holder {
     display: flex;
     flex-direction: column;
@@ -857,16 +858,16 @@ body {
     width: 100%;
     margin-bottom: 25px;
   }
-  
+
   .partner-title {
-    color: #8F8F91;
+    color: #8f8f91;
     font-size: 30px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.3px;
     margin-bottom: 13px;
   }
-  
+
   .partner-container {
     display: flex;
     justify-content: space-evenly;
@@ -874,12 +875,12 @@ body {
     flex: 1;
     column-gap: 40px;
   }
-  
+
   .partner-logo {
     width: 20%;
     margin: 0 0 25px;
   }
-  
+
   .brand-logo {
     width: 100%;
     height: 100%;
@@ -895,14 +896,14 @@ body {
     align-items: center;
     width: 100vw;
   }
-  
+
   .footer-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  
+
   #footer {
     display: flex;
     justify-content: center;
@@ -910,7 +911,7 @@ body {
     width: 70vw;
     margin: 74px 0;
   }
-  
+
   .footer-container {
     display: flex;
     justify-content: space-between;
@@ -918,14 +919,14 @@ body {
     width: 100%;
     row-gap: 8%;
   }
-  
+
   .footer-logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 24%;
   }
-  
+
   .footer-logo-holder {
     background: url('../images/cck-logo1\ 1.png') no-repeat;
     background-size: contain;
@@ -933,7 +934,7 @@ body {
     width: 100%;
     height: 98px;
   }
-  
+
   .rights-container {
     display: flex;
     flex-direction: column;
@@ -950,7 +951,7 @@ body {
     letter-spacing: -0.14px;
     margin-bottom: 25px;
   }
-  
+
   .rights-description {
     color: #000;
     font-size: 14px;
