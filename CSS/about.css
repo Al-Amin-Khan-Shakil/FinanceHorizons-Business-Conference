@@ -140,8 +140,7 @@ body {
 }
 
 .banner-title span:first-child {
-  font-weight: 300;
-  font-size: 23px;
+  display: none;
 }
 
 .title-underline {
@@ -639,7 +638,7 @@ body {
   .main-header-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: centergit;
     width: 72.3vw;
     height: 75px;
   }
@@ -701,6 +700,70 @@ body {
   .menu-list:last-child .menu-link {
     color: #ec4327;
     text-align: center;
+  }
+
+  .banner-content {
+    width: 65vw;
+    margin: 109px 0;
+    gap: 35px;
+  }
+
+  .banner-title-container {
+    width: 583px;
+    margin: 0;
+  }
+
+  .banner-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f9432b;
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  .banner-title span:first-child {
+    display: flex;
+    font-weight: 300;
+    font-size: 23px;
+  }
+
+  .banner-description-container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .banner-description-holder {
+    background: #fff;
+    width: 793px;
+  }
+
+  .banner-description:nth-child(1n+2) {
+    display: flex;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 641px;
+    margin-bottom: 5px;
+  }
+
+  .contact-title {
+    font-size: 16px;
+    letter-spacing: 0.48px;
+  }
+
+  .contact-link {
+    font-size: 17px;
+    letter-spacing: 0.34px;
   }
 
 }
