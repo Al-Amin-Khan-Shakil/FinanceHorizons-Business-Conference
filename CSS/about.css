@@ -587,7 +587,6 @@ body {
 /* Desktop Style Starts */
 
 @media screen and (min-width: 768px) {
-
   .pre-header {
     display: flex;
     justify-content: center;
@@ -877,7 +876,7 @@ body {
     font-weight: 700;
     z-index: 3;
   }
-  
+
   .address {
     color: #fff;
     font-size: 18px;
@@ -891,84 +890,84 @@ body {
   #partner-section {
     display: none;
   }
+
   /* Partner-Section-Ends */
 
-    /* Footer Section Starts */
+  /* Footer Section Starts */
 
-    #footer-section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100vw;
-      background-color: #2e2e2e;
-    }
-  
-    .footer-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-  
-    #footer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 70vw;
-      margin: 74px 0;
-    }
-  
-    .footer-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      row-gap: 8%;
-    }
-  
-    .footer-logo-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 24%;
-    }
-  
-    .footer-logo-holder {
-      background: url('../images/cck-logo1\ 3.png') no-repeat;
-      background-size: contain;
-      background-position: center center;
-      width: 100%;
-      height: 98px;
-    }
-  
-    .rights-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
-      width: 68%;
-    }
-  
-    .rights-title {
-      color: #fff;
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 28px;
-      letter-spacing: -0.14px;
-      margin-bottom: 25px;
-    }
-  
-    .rights-description {
-      display: flex;
-      color: #fff;
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 28px;
-      letter-spacing: -0.56px;
-    }
-  
-    /* Footer Section Ends */
+  #footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #2e2e2e;
+  }
 
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 74px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    row-gap: 8%;
+  }
+
+  .footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+  }
+
+  .footer-logo-holder {
+    background: url('../images/cck-logo1\ 3.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    height: 98px;
+  }
+
+  .rights-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 68%;
+  }
+
+  .rights-title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.14px;
+    margin-bottom: 25px;
+  }
+
+  .rights-description {
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+  }
+
+  /* Footer Section Ends */
 }
 
 /* Desktop Style Ends */
