@@ -131,7 +131,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 2%;
+  margin: 56px 2%;
 }
 
 .banner-title {
@@ -142,12 +142,17 @@ body {
   color: #f9432b;
   font-weight: 900;
   font-size: 31px;
-  margin-bottom: 56px;
 }
 
 .banner-title span:first-child {
   font-weight: 300;
   font-size: 23px;
+}
+
+.title-underline {
+  width: 35px;
+  height: 2px;
+  background: #a04038;
 }
 
 .banner-description-container {
@@ -252,7 +257,7 @@ body {
 }
 
 .about-title {
-  color: #2C2C2C;
+  color: #2c2c2c;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -265,7 +270,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 98vw;
+  width: 92vw;
   margin-bottom: 35px;
 }
 
@@ -300,14 +305,287 @@ body {
 /* About Section Ends */
 
 /* Past Section Start */
+
 #past-section {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
+
+.past-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 34px 0;
+}
+
+.past-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.past-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 287px;
+  margin-bottom: 10px;
+}
+
+.past-title {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  margin-bottom: 10px;
+}
+
+.past-description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  margin-bottom: 35px;
+}
+
+.past-description {
+  color: #838383;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.36px;
+}
+
+.past-conference-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 334px;
+  row-gap: 25px;
+}
+
+.conference-card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 183px;
+  background: url('../images/about-us-01\ \(1\).jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.year {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  z-index: 3;
+}
+
+.address {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  z-index: 3;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f9432b99;
+}
+
+.conference-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 183px;
+  background: url('../images/about-us-02\ \(1\).jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Past Section Ends */
+
+/* Partner-Section-Starts */
 
 #partner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #414246;
+  width: 100vw;
+}
+
+.partner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#partner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0 40px;
+}
+
+.section-title-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.partner-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+
+.partner-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+.partner-logo:nth-child(1) {
+  width: 82px;
+  height: 31px;
+  margin: 0 0 25px;
+}
+
+.partner-logo:nth-child(2) {
+  width: 109px;
+  height: 31px;
+  margin: 0 0 25px;
+}
+
+.partner-logo:nth-child(3) {
+  width: 82px;
+  height: 31px;
+  margin: 0 0 25px;
+}
+
+.partner-logo:nth-child(4) {
+  width: 101px;
+  height: 31px;
+  margin: 0 0 25px;
+}
+
+.partner-logo:nth-child(5) {
+  width: 123px;
+  height: 31px;
+  margin: 0 0 25px;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+}
+
+/* Partner-Section-Ends */
+
+/* Footer Section Starts */
+
+#footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 27px 25px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 323px;
+}
+
+.footer-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.footer-logo-holder {
+  background: url('../images/cck-logo1\ 1.png') no-repeat;
+  background-size: contain;
+  width: 135px;
+  height: 32px;
+}
+
+.rights-title {
+  color: #3B3E45;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13.078px;
+  letter-spacing: -0.1px;
+}
+
+.rights-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 158px;
+}
+
+.rights-description {
   display: none;
 }
 
-#footer-section {
-  display: none;
-}
+/* Footer Section Ends */
