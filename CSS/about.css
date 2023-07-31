@@ -638,7 +638,7 @@ body {
   .main-header-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: centergit;
+    align-items: center;
     width: 72.3vw;
     height: 75px;
   }
@@ -821,6 +821,153 @@ body {
   }
 
   /* About Section Ends */
+
+  /* Past Section Start */
+
+  #past {
+    margin: 65px 0;
+  }
+
+  .past-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 401px;
+    margin-bottom: 20px;
+  }
+
+  .past-title {
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    margin-bottom: 20px;
+  }
+
+  .past-description-container {
+    width: 634px;
+  }
+
+  .past-description {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .past-conference-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 25px;
+  }
+
+  .conference-card1 {
+    width: 432px;
+    height: 236px;
+  }
+
+  .conference-card2 {
+    width: 432px;
+    height: 236px;
+  }
+
+  .year {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    z-index: 3;
+  }
+  
+  .address {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 3;
+  }
+
+  /* Past Section End */
+
+  /* Partner-Section-Starts */
+  #partner-section {
+    display: none;
+  }
+  /* Partner-Section-Ends */
+
+    /* Footer Section Starts */
+
+    #footer-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      background-color: #2e2e2e;
+    }
+  
+    .footer-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    #footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70vw;
+      margin: 74px 0;
+    }
+  
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      row-gap: 8%;
+    }
+  
+    .footer-logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 24%;
+    }
+  
+    .footer-logo-holder {
+      background: url('../images/cck-logo1\ 3.png') no-repeat;
+      background-size: contain;
+      background-position: center center;
+      width: 100%;
+      height: 98px;
+    }
+  
+    .rights-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 68%;
+    }
+  
+    .rights-title {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: -0.14px;
+      margin-bottom: 25px;
+    }
+  
+    .rights-description {
+      display: flex;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: -0.56px;
+    }
+  
+    /* Footer Section Ends */
 
 }
 
