@@ -4,11 +4,11 @@ function mobileBehavior() {
   const closebtn = document.getElementById('closebtn');
 
   function openMenu() {
-    mobileMenu.style.right = '0'; 
+    mobileMenu.style.right = '0';
   }
 
   function closeMenu() {
-    mobileMenu.style.right = '100%'; 
+    mobileMenu.style.right = '100%';
   }
 
   const menuLinks = document.querySelectorAll('.menu-link');
@@ -16,7 +16,7 @@ function mobileBehavior() {
   hamburger.onclick = openMenu;
   closebtn.onclick = closeMenu;
 
-  document.addEventListener('click', function (event) {
+  document.addEventListener('click', (event) => {
     switch (event.target) {
       case menuLinks[0]:
       case menuLinks[1]:
@@ -37,9 +37,9 @@ function mobileDevice(event) {
   if (event.matches) {
     mobileBehavior();
   } else {
-    navbar.style.right = '0';
+    document.getElementById('navbar').style.right = '0';
   }
 }
 
 mobileDevice(mediaQuery);
-mediaQuery.addEventListener('change', mobileDevice)
+mediaQuery.addEventListener('change', mobileDevice);

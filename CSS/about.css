@@ -42,10 +42,6 @@ body {
   position: relative;
 }
 
-#navbar {
-  display: none;
-}
-
 .hamburger-container {
   width: 31px;
   height: 27px;
@@ -113,7 +109,7 @@ body {
 
 #closebtn {
   font-size: 40px;
-  color:#8f8f91;
+  color: #8f8f91;
 }
 
 .menu {
@@ -707,7 +703,7 @@ body {
     height: 48px;
     position: static;
     padding: 0;
-    transition: 0;
+    transition: 0s;
     background-color: #fff;
   }
 

@@ -3,44 +3,44 @@ const speakers = [
     image: './images/man-01.jpg',
     spkrName: 'Yochai Benkler',
     identy: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    identyDes: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006'
+    identyDes: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     image: './images/man-02.jpg',
     spkrName: 'Kilnam Chon',
     identy: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    identyDes: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame'
+    identyDes: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
   },
   {
     image: './images/woman-02.jpg',
     spkrName: 'Yochai Benkler',
     identy: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    identyDes: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006'
+    identyDes: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     image: './images/woman-01.jpg',
     spkrName: 'Kilnam Chon',
     identy: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    identyDes: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame'
+    identyDes: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
   },
   {
     image: './images/woman-03.jpg',
     spkrName: 'Yochai Benkler',
     identy: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    identyDes: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006'
+    identyDes: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
     image: './images/man-03.jpg',
     spkrName: 'Kilnam Chon',
     identy: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    identyDes: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame'
-  }
-  
+    identyDes: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
+  },
+
 ];
 const speakerContainer = document.getElementById('speaker-container');
 
 for (let i = 0; i < speakers.length; i += 1) {
-  let fetch = speakerContainer.innerHTML;
+  const fetch = speakerContainer.innerHTML;
 
   speakerContainer.innerHTML = `${fetch}
   <div class="speaker-card">
@@ -58,8 +58,8 @@ for (let i = 0; i < speakers.length; i += 1) {
                 ${speakers[i].identyDes}
               </div>
             </div>
-          </div>`
-};
+          </div>`;
+}
 
 function mobileBehavior() {
   const mobileMenu = document.getElementById('navbar');
@@ -67,11 +67,11 @@ function mobileBehavior() {
   const closebtn = document.getElementById('closebtn');
 
   function openMenu() {
-    mobileMenu.style.right = '0'; 
+    mobileMenu.style.right = '0';
   }
 
   function closeMenu() {
-    mobileMenu.style.right = '100%'; 
+    mobileMenu.style.right = '100%';
   }
 
   const menuLinks = document.querySelectorAll('.menu-link');
@@ -79,7 +79,7 @@ function mobileBehavior() {
   hamburger.onclick = openMenu;
   closebtn.onclick = closeMenu;
 
-  document.addEventListener('click', function (event) {
+  document.addEventListener('click', (event) => {
     switch (event.target) {
       case menuLinks[0]:
       case menuLinks[1]:
@@ -100,9 +100,9 @@ function mobileDevice(event) {
   if (event.matches) {
     mobileBehavior();
   } else {
-    navbar.style.right = '0';
+    document.getElementById('navbar').style.right = '0';
   }
 }
 
 mobileDevice(mediaQuery);
-mediaQuery.addEventListener('change', mobileDevice)
+mediaQuery.addEventListener('change', mobileDevice);
