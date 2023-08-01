@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/logo.png" alt="logo" width="200"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>FinanceHorizons Business Conference</b></h3>
 
 </div>
 
