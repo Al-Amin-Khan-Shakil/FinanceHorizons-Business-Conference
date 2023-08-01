@@ -514,6 +514,10 @@ body {
   display: none;
 }
 
+#partner .section-title {
+  color: #fff;
+}
+
 /* Partner Section Ends */
 
 /* Footer Section Starts */
