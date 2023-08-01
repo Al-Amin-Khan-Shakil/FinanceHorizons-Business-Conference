@@ -105,3 +105,4 @@ function mobileDevice(event) {
 }
 
 mobileDevice(mediaQuery);
+mediaQuery.addEventListener('change', mobileDevice)
