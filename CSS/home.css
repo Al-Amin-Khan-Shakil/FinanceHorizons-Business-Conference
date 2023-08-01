@@ -224,7 +224,7 @@ body {
   font-size: 20px;
   font-weight: 900;
   letter-spacing: -1.6px;
-  line-height: 0px;
+  line-height: 16px;
   word-wrap: break-word;
   flex: 1;
 }

@@ -67,11 +67,11 @@ function mobileBehavior() {
   const closebtn = document.getElementById('closebtn');
 
   function openMenu() {
-    navbar.style.right = '0'; 
+    mobileMenu.style.right = '0'; 
   }
 
   function closeMenu() {
-    navbar.style.right = '100%'; 
+    mobileMenu.style.right = '100%'; 
   }
 
   const menuLinks = document.querySelectorAll('.menu-link');
@@ -87,7 +87,7 @@ function mobileBehavior() {
       case menuLinks[3]:
       case menuLinks[4]:
       case menuLinks[5]:
-        navbar.style.right = '100%';
+        mobileMenu.style.right = '100%';
         break;
       default:
     }
