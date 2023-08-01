@@ -110,6 +110,7 @@ body {
 #closebtn {
   font-size: 40px;
   color: #8f8f91;
+  cursor: pointer;
 }
 
 .menu {
@@ -258,6 +259,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  border-bottom: 2px solid #d9d9d9;
 }
 
 .about-wrapper {
@@ -526,7 +528,7 @@ body {
 }
 
 .partner-logo:nth-child(1) {
-  width: 82px;
+  width: 92px;
   height: 31px;
   margin: 0 0 25px;
 }
@@ -545,7 +547,7 @@ body {
 
 .partner-logo:nth-child(4) {
   width: 101px;
-  height: 31px;
+  height: 27px;
   margin: 0 0 25px;
 }
 
@@ -829,7 +831,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    border-bottom: 2px solid #d9d9d9;
   }
 
   .about-wrapper {

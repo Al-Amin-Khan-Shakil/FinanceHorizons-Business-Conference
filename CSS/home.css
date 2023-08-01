@@ -121,6 +121,7 @@ body {
 #closebtn {
   font-size: 40px;
   color: #8f8f91;
+  cursor: pointer;
 }
 
 .menu {
