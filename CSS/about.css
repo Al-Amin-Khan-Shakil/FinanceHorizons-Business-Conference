@@ -87,6 +87,53 @@ body {
   height: 100%;
 }
 
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  z-index: 3;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+#closebtn {
+  font-size: 40px;
+  color:#8f8f91;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 25px;
+  list-style: none;
+  margin: 30px 20px;
+}
+
+.menu-link {
+  color: #868686;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
 .banner-wrapper {
   width: 100vw;
 }
