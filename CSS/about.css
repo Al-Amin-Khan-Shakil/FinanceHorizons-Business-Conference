@@ -179,7 +179,8 @@ body {
   align-items: center;
   color: #f9432b;
   font-weight: 900;
-  font-size: 31px;
+  font-size: 28px;
+  text-align: center;
 }
 
 .banner-title span:first-child {
@@ -773,7 +774,8 @@ body {
     align-items: center;
     color: #f9432b;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 46px;
+    text-align: center;
   }
 
   .banner-title span:first-child {
@@ -886,7 +888,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 401px;
+    width: 501px;
     margin-bottom: 20px;
   }
 
@@ -897,7 +899,7 @@ body {
   }
 
   .past-description-container {
-    width: 634px;
+    width: 664px;
   }
 
   .past-description {

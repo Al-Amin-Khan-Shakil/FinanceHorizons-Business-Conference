@@ -188,11 +188,12 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   font-weight: 900;
+  font-size: 28px;
 }
 
 .banner-title span:first-child {
   color: #f34910;
-  font-size: 23px;
+  font-size: 19px;
   font-weight: 300;
 }
 
