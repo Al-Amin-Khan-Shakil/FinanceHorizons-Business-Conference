@@ -37,29 +37,35 @@ const speakers = [
   },
 
 ];
-const speakerContainer = document.getElementById('speaker-container');
 
-for (let i = 0; i < speakers.length; i += 1) {
-  const fetch = speakerContainer.innerHTML;
+function createSpeakerCards() {
 
-  speakerContainer.innerHTML = `${fetch}
-  <div class="speaker-card">
-            <div class="card-photo-container">
-              <div class="design-element"></div>
-              <img src=${speakers[i].image} alt="Speaker photo" class="speaker-photo">
-            </div>
-            <div class="card-content-container">
-              <div class="name">${speakers[i].spkrName}</div>
-              <div class="identy">
-                ${speakers[i].identy}
-              </div>
-              <div class="separation-line"></div>
-              <div class="identy-description">
-                ${speakers[i].identyDes}
-              </div>
-            </div>
-          </div>`;
+  const speakerContainer = document.getElementById('speaker-container');
+
+  for (let i = 0; i < speakers.length; i += 1) {
+    const fetch = speakerContainer.innerHTML;
+
+    speakerContainer.innerHTML += `
+    <div class="speaker-card">
+      <div class="card-photo-container">
+        <div class="design-element"></div>
+        <img src=${speakers[i].image} alt="Speaker photo" class="speaker-photo">
+      </div>
+      <div class="card-content-container">
+        <div class="name">${speakers[i].spkrName}</div>
+        <div class="identy">
+          ${speakers[i].identy}
+        </div>
+        <div class="separation-line"></div>
+        <div class="identy-description">
+          ${speakers[i].identyDes}
+        </div>
+      </div>
+    </div>`;
+  }
 }
+
+window.onload = createSpeakerCards;
 
 function mobileBehavior() {
   const mobileMenu = document.getElementById('navbar');
