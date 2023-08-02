@@ -39,7 +39,6 @@ const speakersData = [
 ];
 
 function createSpeakerCards() {
-
   const speakerContainer = document.getElementById('speaker-container');
 
   speakersData.forEach((speaker) => {
