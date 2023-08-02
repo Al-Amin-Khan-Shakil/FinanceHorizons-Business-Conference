@@ -49,7 +49,7 @@ function createSpeakerCards() {
     photoContainer.classList.add('card-photo-container');
 
     const designElement = document.createElement('div');
-    designElement.classList.add('designElement');
+    designElement.classList.add('design-element');
     photoContainer.appendChild(designElement);
 
     const image = document.createElement('img');
