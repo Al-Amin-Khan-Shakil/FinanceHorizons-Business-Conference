@@ -1,4 +1,4 @@
-const speakers = [
+const speakersData = [
   {
     image: './images/man-01.jpg',
     spkrName: 'David Chen',
@@ -42,30 +42,53 @@ function createSpeakerCards() {
 
   const speakerContainer = document.getElementById('speaker-container');
 
-  for (let i = 0; i < speakers.length; i += 1) {
-    const fetch = speakerContainer.innerHTML;
+  speakersData.forEach((speaker) => {
+    const card = document.createElement('div');
+    card.classList.add('speaker-card');
 
-    speakerContainer.innerHTML += `
-    <div class="speaker-card">
-      <div class="card-photo-container">
-        <div class="design-element"></div>
-        <img src=${speakers[i].image} alt="Speaker photo" class="speaker-photo">
-      </div>
-      <div class="card-content-container">
-        <div class="name">${speakers[i].spkrName}</div>
-        <div class="identy">
-          ${speakers[i].identy}
-        </div>
-        <div class="separation-line"></div>
-        <div class="identy-description">
-          ${speakers[i].identyDes}
-        </div>
-      </div>
-    </div>`;
-  }
+    const photoContainer = document.createElement('div');
+    photoContainer.classList.add('card-photo-container');
+
+    const designElement = document.createElement('div');
+    designElement.classList.add('designElement');
+    photoContainer.appendChild(designElement);
+
+    const image = document.createElement('img');
+    image.classList.add('speaker-photo');
+    image.src = speaker.image;
+    image.alt = 'Speaker photo';
+    photoContainer.appendChild(image);
+
+    const contentContainer = document.createElement('div');
+    contentContainer.classList.add('card-content-container');
+
+    const name = document.createElement('div');
+    name.classList.add('name');
+    name.textContent = speaker.spkrName;
+    contentContainer.appendChild(name);
+
+    const identy = document.createElement('div');
+    identy.classList.add('identy');
+    identy.textContent = speaker.identy;
+    contentContainer.appendChild(identy);
+
+    const line = document.createElement('div');
+    line.classList.add('separation-line');
+    contentContainer.appendChild(line);
+
+    const description = document.createElement('div');
+    description.classList.add('identy-description');
+    description.textContent = speaker.identyDes;
+    contentContainer.appendChild(description);
+
+    card.appendChild(photoContainer);
+    card.appendChild(contentContainer);
+
+    speakerContainer.appendChild(card);
+  });
 }
 
-window.onload = createSpeakerCards;
+window.addEventListener('load', createSpeakerCards);
 
 function mobileBehavior() {
   const mobileMenu = document.getElementById('navbar');
