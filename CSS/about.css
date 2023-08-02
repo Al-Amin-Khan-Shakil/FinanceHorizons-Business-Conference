@@ -19,16 +19,22 @@ body {
 
 #hero {
   width: 100vw;
+  background: url('../images/about-hero.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
 }
 
 .header-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
+  z-index: 2;
 }
 
 .pre-header {
   display: none;
+  z-index: 2;
 }
 
 #main-header {
@@ -37,9 +43,9 @@ body {
   align-items: center;
   width: 100vw;
   height: 73px;
-  background: #fff;
-  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff0;
   position: relative;
+  z-index: 2;
 }
 
 .hamburger-container {
@@ -47,6 +53,7 @@ body {
   height: 27px;
   margin-left: 23px;
   transition: 0.1s;
+  z-index: 3;
 }
 
 #hamburger-link {
@@ -64,13 +71,9 @@ body {
 }
 
 .logo-container {
+  display: none;
   width: 130px;
   height: 51px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .logo-link {
@@ -93,7 +96,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #f8f8f8;
-  z-index: 3;
+  z-index: 10;
   padding: 30px;
   transition: 0.3s;
 }
@@ -140,9 +143,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  background: url('../images/about-hero.jpg') no-repeat;
-  background-position: top center;
-  background-size: cover;
   position: relative;
 }
 
@@ -161,8 +161,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 19px 0 16px;
-  z-index: 2;
+  margin: 0 0 16px;
 }
 
 .banner-title-container {
@@ -170,7 +169,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 56px 2%;
+  margin: 22px 2%;
 }
 
 .banner-title {
@@ -185,13 +184,14 @@ body {
 }
 
 .banner-title span:first-child {
-  display: none;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .title-underline {
   width: 35px;
   height: 2px;
-  background: #a04038;
+  background: #ec5242;
 }
 
 .banner-description-container {
@@ -335,6 +335,7 @@ body {
   align-items: center;
   width: 375px;
   height: 142px;
+  border: 1px solid #d3d3d3;
 }
 
 .logo-image {
@@ -440,14 +441,14 @@ body {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
-  z-index: 3;
+  z-index: 1;
 }
 
 .address {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  z-index: 3;
+  z-index: 1;
 }
 
 .overlay {
@@ -678,6 +679,8 @@ body {
     justify-content: center;
     width: 100vw;
     height: 75px;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
 
   .main-header-wrapper {
@@ -686,6 +689,7 @@ body {
     align-items: center;
     width: 72.3vw;
     height: 75px;
+    background: #fff;
   }
 
   .hamburger-container {
@@ -693,9 +697,7 @@ body {
   }
 
   .logo-container {
-    position: static;
-    -ms-transform: none;
-    transform: none;
+    display: flex;
   }
 
   #navbar {
@@ -744,7 +746,7 @@ body {
   }
 
   .menu-link:hover {
-    color: #f07f7e;
+    color: #ec5242;
   }
 
   .menu-list:last-child {

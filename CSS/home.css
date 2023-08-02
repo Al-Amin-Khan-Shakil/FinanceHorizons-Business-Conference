@@ -20,12 +20,15 @@ body {
 
 #hero {
   width: 100vw;
+  background: url('../images/pexels-following-nyc-9480305.jpg') no-repeat;
+  background-position: top center;
 }
 
 .header-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 
 .pre-header {
@@ -38,8 +41,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 73px;
-  background: #fff;
-  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff0;
   position: relative;
 }
 
@@ -49,7 +51,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 73px;
-  background: #fff;
+  background: #fff0;
   position: relative;
 }
 
@@ -58,6 +60,7 @@ body {
   height: 27px;
   margin-left: 23px;
   transition: 0.1s;
+  z-index: 2;
 }
 
 #hamburger-link {
@@ -75,13 +78,9 @@ body {
 }
 
 .logo-container {
+  display: none;
   max-width: 130px;
   max-height: 51px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .logo-link {
@@ -144,8 +143,6 @@ body {
 
 #banner-wrapper {
   width: 100vw;
-  background: url('../images/pexels-following-nyc-9480305.jpg') no-repeat;
-  background-position: top center;
   background-size: cover;
   position: relative;
 }
@@ -172,7 +169,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 346px;
-  margin: 109px 0 71px;
+  margin: 40px 0 71px;
   z-index: 2;
 }
 
@@ -286,7 +283,7 @@ body {
 .title-bottomline {
   width: 30px;
   height: 2px;
-  background: #a04038;
+  background: #ec5242;
   margin-top: 15px;
 }
 
@@ -305,6 +302,10 @@ body {
   align-items: center;
   width: 100%;
   background-color: #3b3e45;
+}
+
+.program-card:hover {
+  border: 1px solid #d3d3d3;
 }
 
 .program-icon {
@@ -459,7 +460,7 @@ body {
 }
 
 .identy {
-  color: #f78c89;
+  color: #ec5242;
   font-size: 10px;
   font-weight: 700;
   line-height: 14.943px;
@@ -579,12 +580,15 @@ body {
     justify-content: center;
     width: 100vw;
     height: 75px;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
 
   .main-header-wrapper {
     justify-content: space-between;
     width: 72.3vw;
     height: 75px;
+    background: #fff;
   }
 
   .hamburger-container {
@@ -592,9 +596,7 @@ body {
   }
 
   .logo-container {
-    position: static;
-    -ms-transform: none;
-    transform: none;
+    display: flex;
   }
 
   #navbar {
@@ -644,7 +646,7 @@ body {
   }
 
   .menu-link:hover {
-    color: #f07f7e;
+    color: #ec5242;
   }
 
   .menu-list:last-child {
@@ -734,6 +736,7 @@ body {
   .program-container {
     flex-direction: row;
     justify-content: center;
+    width:100vw;
     flex-wrap: wrap;
     gap: 3px;
   }
@@ -775,6 +778,7 @@ body {
   }
 
   .program-description {
+    color: #d3d3d3;
     text-align: center;
     font-size: 12px;
     font-weight: 700;
